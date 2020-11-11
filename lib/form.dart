@@ -28,7 +28,7 @@ class _FormState extends State<Form> {
                 labelText: 'Email',
                 border: OutlineInputBorder(),
               )),
-          // SizedBox(height: 20),
+          SizedBox(height: 20),
           TextFormField(
               onChanged: (value) {
                 setState(() {
